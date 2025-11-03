@@ -144,7 +144,12 @@ def cite_with_manubot(source):
     # run Manubot and get results as json
     try:
         commands = ["manubot", "cite", id, "--log-level=ERROR"]
-        output = subprocess.Popen(commands, stdout=subprocess.PIPE)
+        # Create a clean environment to avoid RStudio/R conflicts
+        clean_env = {
+            key: value for key, value in os.environ.items()
+            if not key.startswith(('RSTUDIO', 'R_'))
+        }
+        output = subprocess.Popen(commands, stdout=subprocess.PIPE, env=clean_env)
         manubot = json.loads(output.communicate()[0])[0]
     except Exception:
         raise Exception("Manubot could not generate citation")
