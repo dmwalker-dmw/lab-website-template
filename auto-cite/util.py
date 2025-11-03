@@ -149,9 +149,6 @@ def cite_with_manubot(source):
             key: value for key, value in os.environ.items()
             if not key.startswith(('RSTUDIO', 'R_'))
         }
-        # Ensure PATH is available for finding manubot
-        if 'PATH' not in clean_env and 'PATH' in os.environ:
-            clean_env['PATH'] = os.environ['PATH']
         output = subprocess.Popen(commands, stdout=subprocess.PIPE, env=clean_env)
         manubot = json.loads(output.communicate()[0])[0]
     except Exception:
