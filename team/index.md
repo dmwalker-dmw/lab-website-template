@@ -7,10 +7,7 @@ nav:
 
 # <i class="fas fa-users"></i>Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We are a diverse team of researchers studying microbiome ecology, disease ecology, and biodiversity conservation. Our work spans field studies, laboratory experiments, and computational analyses to understand the complex interactions between hosts, microbiomes, and pathogens.
 
 {% include section.html %}
 
@@ -24,62 +21,46 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
   include list.html
   data="members"
   component="portrait"
+  filters="role: postdoc"
+%}
+{%
+  include list.html
+  data="members"
+  component="portrait"
   filters="role: phd"
 %}
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role: programmer"
-%}
-{:.center}
-
-{% include section.html background="images/banner.jpg" dark=true%}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{%
-  include link.html
-  icon="fas fa-hands-helping"
-  text="Join the Team"
-  link="join"
-  style="button"
+  filters="role: grad"
 %}
 {:.center}
 
 {% include section.html %}
 
-## Funding
+## Past Members
 
-Our work is made possible by funding from several organizations.
-{:.center}
+We are grateful to all past members who have contributed to the lab's research:
 
-{%
-  include gallery.html
-  style="square"
+**PhD Graduates:**
+- Dr. Matthew Grisnik (2021) - Bat microbiome resistance through functional redundancy
+- Dr. Reed Alexander (2025) - Structure and Function of Microbial Assemblages Within Wetland Ecosystems
+- Dr. Aubree J. Hill (2020) - The salamander microbiome: composition, ecology, and anti-chytrid utility
+- Dr. Cody Godwin (2021) - Impacts of snake fungal disease in Tennessee
 
-  image1="images/photo.jpg"
-  link1="https://nasa.gov/"
-  tooltip1="Cool Foundation"
+**MSc Graduates:**
+- Chloe Cummins (2025) - Eastern hellbender gut microbiome in headstart program
+- Alexander Romer (2020) - Effects of snake fungal disease on epidermal microbiome
+- Jacob Leys (2017) - Snake skin microbial assemblages across scales and disease states
+- Ashton Reece (2021) - Bacterial-Fungal Interactions and white-nose syndrome
+- Alejandro Grajal-Puche (2020) - American Alligator nesting ecosystem microbiome
+- Isabel Papraniku (2018) - Temporal trajectories in metacommunity structure
 
-  image2="images/photo.jpg"
-  link2="https://nasa.gov/"
-  tooltip2="Cool Institute"
+**Postdoctoral Researchers:**
+- Dr. Kaitlyn Murphy (PhD Auburn University 2023)
+- Dr. Mitra Ghotbi (PhD UC Davis/University of Bonn 2022)
 
-  image3="images/photo.jpg"
-  link3="https://nasa.gov/"
-  tooltip3="Cool Initiative"
-
-  image4="images/photo.jpg"
-  link4="https://nasa.gov/"
-  tooltip4="Cool Foundation"
-
-  image5="images/photo.jpg"
-  link5="https://nasa.gov/"
-  tooltip5="Cool Institute"
-
-  image6="images/photo.jpg"
-  link6="https://nasa.gov/"
-  tooltip6="Cool Initiative"
-%}
+**Undergraduate Researchers:**
+- Kylie Moe - Endosymbiotic bacteria of white-nose syndrome pathogen
+- Olivia Bowers - Microbiome-Saprolegnia parasitica interactions

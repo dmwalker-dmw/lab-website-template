@@ -1,33 +1,280 @@
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  date: 2020-6-2
-  extra-links:
-    - type: manubot
-      link: https://greenelab.github.io/knowledge-graph-review/
+# 2026 Publications
+# Note: Dallas et al. 2026 in PLOS Pathogens (in press) - DOI not yet available
+
+# 2025 Publications
+- id: doi:10.1093/ismejo/wraf150
+  date: 2025
   tags:
-    - knowledge graphs
+    - gut microbiome
+    - fungi
+    - Basidiobolus
 
-- id: doi:10.1371/journal.pcbi.1007128
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  repo: greenelab/meta-review
-  extra-links:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+- id: doi:10.1093/bioinformatics/btaf366
+  date: 2025
+  tags:
+    - bioinformatics
+    - machine learning
+    - sequencing
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  extra-links:
-    - type: preprint
-      link: https://doi.org/10.7287/peerj.preprints.3100v1
-    - type: manubot
-      link: https://greenelab.github.io/scihub-manuscript/
-    - type: source
-      link: https://github.com/greenelab/scihub-manuscript
-      text: Manuscript source
-    - type: source
-      link: https://github.com/greenelab/scihub
-      text: Analyses source
+- id: doi:10.1111/cobi.14411
+  date: 2025
+  tags:
+    - snake fungal disease
+    - skin microbiome
+    - conservation
+
+- id: doi:10.1007/s00248-025-02516-1
+  date: 2025
+  tags:
+    - wetland microbiome
+    - nutrient flux
+    - soil
+
+# 2024 Publications
+- id: doi:10.1007/s00248-024-02480-2
+  date: 2024
+  tags:
+    - bat microbiome
+    - functional redundancy
+
+- id: doi:10.1128/msphere.00475-23
+  date: 2024
+  tags:
+    - herptile microbiome
+    - bacterial-fungal interactions
+    - gut
+
+# 2022 Publications
+- id: doi:10.1007/s00248-022-02127-0
+  date: 2022
+  tags:
+    - salamander
+    - skin microbiome
+    - bacterial assemblages
+
+- id: doi:10.1007/s00248-022-02098-2
+  date: 2022
+  tags:
+    - bat microbiome
+    - functional redundancy
+    - white-nose syndrome
+
+- id: doi:10.1656/058.021.0207
+  date: 2022
+  tags:
+    - salamander
+    - distribution
+    - Georgia
+
+- id: doi:10.1038/s41598-022-07042-5
+  date: 2022
+  tags:
+    - snake fungal disease
+    - microbiome
+    - microbial richness
+
+# 2021 Publications
+- id: doi:10.1016/j.jtherbio.2021.103065
+  date: 2021
+  tags:
+    - snake fungal disease
+    - thermal biology
+    - febrile response
+
+- id: doi:10.1038/s41598-021-91118-1
+  date: 2021
+  tags:
+    - bat
+    - white-nose syndrome
+    - metacommunity
+
+- id: doi:10.1002/wat2.1531
+  date: 2021
+  tags:
+    - metacommunity
+    - streams
+    - intermittent
+
+- id: doi:10.7589/JWD-D-20-00218
+  date: 2021
+  tags:
+    - salamander
+    - chytrid fungus
+    - disease surveillance
+
+# 2020 Publications
+- id: doi:10.1186/s12864-020-07204-7
+  date: 2020
+  tags:
+    - fish microbiome
+    - rainbow trout
+    - genomics
+
+- id: doi:10.1007/s00248-020-01522-9
+  date: 2020
+  tags:
+    - alligator
+    - microbiome
+    - nesting ecology
+
+- id: doi:10.7589/2019-04-109
+  date: 2020
+  tags:
+    - snake fungal disease
+    - prevalence
+    - Tennessee
+
+- id: doi:10.1093/femsec/fiz193
+  date: 2020
+  tags:
+    - bat microbiome
+    - antifungal
+    - white-nose syndrome
+
+- id: doi:10.1007/s00248-019-01456-x
+  date: 2020
+  tags:
+    - salamander
+    - microbiome
+    - geographic variation
+
+# 2019 Publications
+- id: doi:10.1186/s12864-019-6175-2
+  date: 2019
+  tags:
+    - fish microbiome
+    - rainbow trout
+    - fecal microbiome
+
+- id: doi:10.1038/s41396-019-0416-x
+  date: 2019
+  tags:
+    - snake
+    - skin microbiome
+    - disease states
+
+- id: doi:10.1038/s41564-019-0361-5
+  date: 2019
+  tags:
+    - fungal ecology
+    - trait expression
+    - spatial patterns
+
+- id: doi:10.1016/j.myc.2018.08.001
+  date: 2019
+  tags:
+    - fungal pathogen
+    - taxonomy
+    - Japan
+
+# 2018 Publications
+- id: doi:10.1093/femsec/fiy168
+  date: 2018
+  tags:
+    - salamander
+    - fungal communities
+    - top-down effects
+
+- id: doi:10.1111/gcb.14126
+  date: 2018
+  tags:
+    - conservation
+    - species reintroduction
+    - population genomics
+
+- id: doi:10.1111/efp.12418
+  date: 2018
+  tags:
+    - butternut
+    - fungal disease
+    - qPCR
+
+- id: doi:10.1007/s10393-017-1289-y
+  date: 2018
+  tags:
+    - snake
+    - bacterial inhibition
+    - fungal disease
+
+# 2017 Publications
+- id: doi:10.1093/biolinnean/blx043
+  date: 2017
+  tags:
+    - fungal diversity
+    - phylogenetics
+    - climate
+
+- id: doi:10.1111/1755-0998.12667
+  date: 2017
+  tags:
+    - eDNA
+    - salamander
+    - biodiversity
+
+# 2016 Publications
+- id: doi:10.1007/s11557-016-1219-3
+  date: 2016
+  tags:
+    - endophytic fungi
+    - avocado
+    - Florida
+
+# 2014 Publications
+- id: doi:10.1002/ece3.1259
+  date: 2014
+  tags:
+    - salamander
+    - metagenomics
+    - fungal communities
+
+- id: doi:10.1093/database/bau061
+  date: 2014
+  tags:
+    - fungal database
+    - molecular data
+    - taxonomy
+
+- id: doi:10.1007/s11557-014-0993-z
+  date: 2014
+  tags:
+    - fungal diversity
+    - Japan
+    - taxonomy
+
+- id: doi:10.1111/bij.12189
+  date: 2014
+  tags:
+    - fungal evolution
+    - host specificity
+    - phylogenetics
+
+# 2013 Publications
+- id: doi:10.1139/cjz-2013-0097
+  date: 2013
+  tags:
+    - salamander
+    - niche conservatism
+    - ecology
+
+# 2012 Publications
+- id: doi:10.1007/s13225-012-0175-0
+  date: 2012
+  tags:
+    - fungal phylogeny
+    - taxonomy
+    - systematics
+
+- id: doi:10.1016/j.ympev.2012.05.005
+  date: 2012
+  tags:
+    - molecular markers
+    - fungal phylogenetics
+    - systematics
+
+# 2010 Publications
+- id: doi:10.3852/09-243
+  date: 2010
+  tags:
+    - fungal systematics
+    - phylogeny
+    - taxonomy
