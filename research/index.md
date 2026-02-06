@@ -7,10 +7,17 @@ nav:
 
 # <i class="fas fa-microscope"></i>Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We focus on understanding the interactions between wildlife hosts, their skin and gut microbiomes, and emerging infectious fungal pathogens and their implications for disease ecology and biodiversity conservation.
+
+## Study System #1
+**Fungal pathogen induced dysbiosis alters microbiome assembly: implications for biodiversity conservation**
+
+We investigate how emerging infectious fungal diseases affect host-associated microbial communities across multiple ecological scales, from field studies to controlled enrichment experiments.
+
+## Study System #2
+**Collaborative Research: Gut-inhabiting fungi influence structure and function of herptile microbiomes through horizontal gene transfer and novel metabolic function**
+
+Our research examines the complex interactions between bacteria and fungi in herptile gut microbiomes and their implications for host health and ecosystem function.
 
 {% include section.html %}
 

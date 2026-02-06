@@ -2,27 +2,14 @@
 title: Home
 ---
 
-# Your Lab Slogan
+# The Microbiome Ecology Lab at MTSU
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
-Spend less time reinventing the wheel, and more time running your lab.
+The tissues and organs of multicellular organisms are colonized by microbial assemblages, commonly referred to as the host microbiome, which are distinct from the surrounding environment. The microbiome acts as an important line of defense against fungal pathogenicity and its composition can be altered by factors such as microtopography, host life history, and environmental heterogeneity. 
+
+We focus on understanding the interactions between wildlife hosts, their skin and gut microbiomes, and emerging infectious fungal pathogens and their implications for disease ecology and biodiversity conservation. Emerging infectious fungal diseases are known to reduce animal population sizes, cause extirpation/extinction events, and have indirect adverse consequences on human well-being.
+
+We have established two central study systems in our lab focused on pathogen induced dysbiosis (PID) and bacterial-fungal interactions (BFIs). We strive to disentangle mechanisms of microbial assembly in host-microbiome-pathogen systems and determine the potential for microbiomes to be used in bioaugmentation programs and biodiversity conservation. Most notably, our study systems span three major ecological scales including field, live animal timeseries and controlled microbial enrichment experiments to understand the drivers of community assembly resulting from PID and BFI.
   
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="See the template on GitHub"
-  link="greenelab/lab-website-template"
-  style="button"
-%}
-{%
-  include link.html
-  type="docs"
-  icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
-  style="button"
-%}
 {:.center}
 
 {% include section.html full=true %}
@@ -31,13 +18,12 @@ Spend less time reinventing the wheel, and more time running your lab.
 
 {% include section.html %}
 
-# Highlights
+# Research Highlights
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Fungal pathogen induced dysbiosis alters microbiome assembly with implications for biodiversity conservation. We investigate how emerging infectious fungal diseases affect host-associated microbial communities and explore their potential use in bioaugmentation programs.
 
-[See what we've published &nbsp;→](research)
+[See our publications &nbsp;→](research)
 {:.center}
 {% endcapture %}
 
@@ -45,28 +31,27 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   include feature.html
   image="images/photo.jpg"
   link="research"
-  headline="Our Research"
+  headline="Study System #1: Pathogen-Induced Dysbiosis"
   text=text
 %}
 
 {% capture text %}
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Gut-inhabiting fungi influence structure and function of herptile microbiomes through horizontal gene transfer and novel metabolic function. Our collaborative research examines bacterial-fungal interactions and their role in host health.
 
-[See our resources &nbsp;→](resources)
+[See our publications &nbsp;→](research)
 {:.center}
 {% endcapture %}
 
 {%
   include feature.html
   image="images/photo.jpg"
-  link="resources"
-  headline="Our Resources"
+  link="research"
+  headline="Study System #2: Bacterial-Fungal Interactions"
   text=text
 %}
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team includes graduate students, postdoctoral researchers, and collaborators working on microbiome ecology, disease ecology, and biodiversity conservation.
 
 [Meet our team &nbsp;→](team)
 {:.center}

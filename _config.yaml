@@ -1,8 +1,8 @@
 ### basic settings
 
 # site properties and page defaults
-title: Lab Website Template
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: The Microbiome Ecology Lab at MTSU
+description: Understanding the interactions between wildlife hosts, their microbiomes, and emerging infectious fungal pathogens
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
@@ -10,12 +10,9 @@ baseurl: /lab-website-template
 
 # site social media and other links
 links:
-  email: jane.smith@your-lab.com
-  google-scholar: Jane Smith
-  github: your-lab
-  twitter: YourLabHandle
-  instagram: YourLabHandle
-  youtube: YourLabChannel
+  email: Donald.Walker@mtsu.edu
+  google-scholar: Donny Walker
+  github: dmwalker-dmw
 
 # automatic citations
 auto-cite:
